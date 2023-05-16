@@ -100,3 +100,115 @@ header{
 .actor{
     text-align: center;
 }
+
+.nemesis-section{
+    position: relative;
+    top: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bat-shuriken{
+    position:relative;
+    width: 10%;
+    top: -6rem;
+    left: 4rem;
+}
+
+.nemesis-article{
+    position: relative;
+    top: -5rem;
+    font-family: Space Grotesk;
+}
+
+.container-nemesis{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Space Grotesk;
+}
+
+.batman-side{
+    position: relative;
+    top: -20rem;
+    left: 50rem;
+
+}
+
+.ally-section{
+    position: relative;
+    top: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ally-article{
+    position: relative;
+    top: -20rem;
+    font-family: Space Grotesk;
+}
+
+.container-ally{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Space Grotesk;
+}
+
+.justice-section{
+    position: relative;
+    top: 550px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Space Grotesk;
+}
+
+.justice-pic{
+    position: relative;
+    width: 100%;
+    top:37rem;
+}
+
+
+.multimedia{
+    position: relative;
+    top: 35rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Rajdhani;
+}
+
+
+.buton-right{
+    position: relative;
+    top: 50rem;
+}
+
+.container-classement{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container-right{
+    position: relative;
+    left: 2rem;
+}
+
+
+.container-all-center{
+    position: relative;
+    display: flex;
+    width: 60%;
+}
