@@ -1,8 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
 header{
     background-image: url('../Assets/Illustrations/Bathome1.png');
     background-size: 100% 100%;
     position: absolute;
     height: 500px;
+    width: 100%;
     top: 0px;
     left: 0px;
     right: 0px;      
@@ -24,11 +29,19 @@ header{
     font-size: 1,5rem
 }
 
+.container{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .intro{
     color: white;
     font-family: Space Grotesk;
     text-align: center;
-    width: 300px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,3 +49,54 @@ header{
 
 }
 
+.container-button{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fleche-down{
+    position: relative;
+    top: 450px;
+    width: 60px;    
+    left: 450px;
+    
+}
+
+.bat-title1{
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Rajdhani;    
+}
+
+.perso-batman{
+    color:white;
+    font-family: Space Grotesk;
+}
+
+.bat-cine{
+    position:relative;
+    top: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-batman{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Space Grotesk;
+
+}
+
+.actor{
+    text-align: center;
+}
