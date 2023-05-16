@@ -1,0 +1,38 @@
+header{
+    background-image: url('../Assets/Illustrations/Bathome1.png');
+    background-size: 100% 100%;
+    position: absolute;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    right: 0px;      
+}
+
+.logo-home{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+    left: 20px;
+}
+
+.text-home{
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-family: Rajdhani; 
+    font-size: 1,5rem
+}
+
+.intro{
+    color: white;
+    font-family: Space Grotesk;
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+}
+
