@@ -210,31 +210,61 @@ la lutte contre le crime sous le nom de Batman.
     </section>
 
     <section class="contact">
-        <h2>PRENONS CONTACT</h2>
-        <form action="#">
-            <div>
-                <label for="email">ADREESSE EMAIL</label>
+        <div>
+        <h2 class="contact-title">PRENONS CONTACT</h2>
+        </div>
+        <form class="formulaire" action="#">
+            <div class="email">
+                <label for="email">ADRESSE EMAIL</label>
+                <br>
                 <input type="email" name="email" id="email" placeholder="Adresse email">
             </div>
-            <div>
-                <label>NEWSLETTER</label>
-                <label for="newsletter"></label>
-                <input type="checkbox" name="newsletter" id="newsletter">
+            <div class="newsletter">
+                <label for="newsletter">NEWSLETTER</label>
+                <br>
+                <p>En cochant cette case vous acceptez de recevoir l'actualité concernant les aventures de Batman: </p>
+                <input type="checkbox" name="newsletter" id="newsletter" value="check">
             </div>
-        </form>
+            <div class="frequence">
+                <label for="frequence"></label>
+                <select name="frequence" id="frequence">
+                    <option value="1">One</option>
+                   <option value="2">Two</option>
+                </select>
+            <div class="news-check">
+                <label for="news-check"></label>
+                <input type="text" name="news-check" id="news-check" placeholder="Shouhaitez vous recevoir des news">
+                <br>
+                <div class="buttons">
+                    <button>Des films</button>
+                    <button>Des comics</button>
+                    <button>De tout</button>
+                </div>
+            </div>
+            <div class="message">
+                <label for="message">MESSAGE</label>
+                <br>
+                <input type="text" name="message" id="message" placeholder="Laissez un commentaire pour la communauté">
+            </div>
+            </div>
+            <div class="submit">
+                <button type="submit">CONFIRMER</button>
+            </div>
+       </form>
     </section>
     <section class="citation">
+        <div class="container-quotes">
             <div class="quote-1">
                 <img src="./Assets/Logos/icon_guillemets_1.png" alt="quote-1">
             </div>
             <div class="container-all-center2">
-                <div class="joker-quote">
-                    <p>
-                        « La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. »
-                    </p>
-                    <p>
-                        The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
-                    </p>
+                <div class="container-joker-quote">
+                    <div class="the-quote">
+                        <h3>« La seule façon raisonnable de vivre en ce bas monde, <br> c'est en dehors des règles. »</h3>
+                    </div>
+                    <div class="source-quote">
+                    <p>The Dark Knight : Le Chevalier Noir - <br> Le Joker à Batman (2008)</p>
+                    </div>
                     <div>
                         <div class="empty"></div>
                         <div class="empty"></div>
@@ -251,13 +281,18 @@ la lutte contre le crime sous le nom de Batman.
             <div class="quote-2">
             <img src="./Assets/Logos/icon_guillemets_2.png" alt="quote-2">
             </div>
+        </div>
     </section>
         
     <footer>    
         <div class="WB">
-            <img src="./Assets/Logos/icon_WB.png" alt=""logo-WB>
-            <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan &
+            <div>
+                <img src="./Assets/Logos/icon_WB.png" alt=""logo-WB>
+            </div>
+            <div>
+                <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan &
                 Snyder & Reeves</p>
+            </div>
         </div>
         <div class="logos">
             <img src="./Assets/Logos/logo_sayna_white.png" alt="logo-sayna">

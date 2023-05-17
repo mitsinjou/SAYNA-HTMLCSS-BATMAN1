@@ -221,12 +221,116 @@ header{
 .contact{
     position: relative;
     top: 43rem;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+.contact-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: Rajdhani;
+    
+}
 
+.formulaire{
+    position: relative;
+    top: 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Space Grotesk;
+}
+
+
+.email,
+.newsletter,
+.frequence,
+.news-check,
+.buttons,
+.message,
+.submit{
+
+}
+
+.email{
+    position: relative;
+    top: 2rem;
+}
+
+.newsletter{
+    position: relative;
+    top: 4rem;
+}
+
+.frequence{
+    position: relative;
+    top: 4rem;
+}
+
+.news-check{
+    position: relative;
+    top: 4rem;
+}
+
+.message{
+    position: relative;
+    top: 8rem;
+}
+
+
+.citation{
+    position: relative;
+    top: 70rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: ;
+}
+
+.container-quotes{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.quote-1{
+    position: relative;
+    top: -4rem;
+}
+
+.container-all-center2{
+    position: relative;
+    
+}
+
+.container-joker-quote{
+    position: relative;
+    
+}
+
+.the-quote{
+    position: relative;
+    text-align: center;
+    font-family: Rajdhani;
+}
+
+.source-quote{
+    position: relative;
+    text-align: center;
+    font-family: Space Grotesk;
+}
+
+
+.quote-2{
+    position: relative;
+    top: 4rem;
+}
 
 footer{
     position: relative;
