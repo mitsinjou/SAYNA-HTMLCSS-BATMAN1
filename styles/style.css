@@ -135,7 +135,7 @@ header{
 .batman-side{
     position: relative;
     top: -20rem;
-    left: 50rem;
+    left: 47.5rem;
 
 }
 
@@ -188,10 +188,10 @@ header{
     font-family: Rajdhani;
 }
 
-
-.buton-right{
+.button-left, 
+.button-right{
     position: relative;
-    top: 50rem;
+    top: 7rem;
 }
 
 .container-classement{
@@ -211,4 +211,47 @@ header{
     position: relative;
     display: flex;
     width: 60%;
+}
+
+.bande-annonce{
+    position: relative;
+    top: 5rem;
+}
+
+.contact{
+    position: relative;
+    top: 43rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+footer{
+    position: relative;
+    top: 80rem;
+    margin-bottom: 10rem;
+}
+
+.WB{
+    position: relative;
+    display: flex;
+    width: 47rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.logos{
+    position: relative;
+    display: flex;
+    width: 20rem;
+    height: 1.8rem;
+    top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+    
 }
