@@ -1,36 +1,60 @@
 body{
-    background-color: black;
-    color: white;
+    position: relative;
+    background-color: hsl(0 0% 0%);
+    color: hsl(0 0% 100%);
+    width: 100%;
+    height: 420rem;
+    margin: 0 0;
+    /* font-family: Space Grotesk; */
+
 }
+
 header{
     background-image: url('../Assets/Illustrations/Bathome1.png');
-    background-size: 100% 100%;
-    position: absolute;
-    height: 500px;
     width: 100%;
-    top: 0px;
-    left: 0px;
-    right: 0px;      
+    height: 54rem;
+    position: absolute;
+    background-repeat: no-repeat;              
+}
+
+nav{
+    position: relative;
+    top: 4rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+                    
+}
+
+.container-nav-elements{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo-home{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 10px;
-    left: 20px;
+    position: relative;
+    
 }
 
 .text-home{
-    position: absolute;
-    right: 20px;
-    color: white;
+    position: relative;
+    color: hsl(0 0% 100%);
     font-family: Rajdhani; 
-    font-size: 1,5rem
+    font-size: 2rem;
+}
+
+.text-home a{
+    /* text-decoration: none; */
+    color: hsl(0 0% 100%);
 }
 
 .container{
     position: relative;
+    top: 10rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -38,10 +62,11 @@ header{
 }
 
 .intro{
-    color: white;
+    color: hsl(0 0% 100%);
     font-family: Space Grotesk;
+    font-size: 1.1rem;
     text-align: center;
-    width: 400px;
+    width: 30rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,27 +74,47 @@ header{
 
 }
 
+.he-is-batman{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Rajdhani ;
+    font-size: 1.2rem;
+}
+
 .container-button{
     position: relative;
     display: flex;
-    justify-content: space-between;
-    width: 300px;
+    justify-content: space-around;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.hero{
+    position: relative;
+    padding-top:  0.5rem;
+    
+}
 .fleche-down{
     position: relative;
-    top: 450px;
-    width: 60px;    
-    left: 450px;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;    
+    top: 27rem;
     
+}
+
+main{
+    position: relative;
+    top: 25rem;
 }
 
 .bat-title1{
     position: relative;
     top: 10px;
-    color: white;
+    color: hsl(0 0% 100%);
     font-family: Rajdhani;    
 }
 
@@ -222,8 +267,10 @@ header{
     position: relative;
     top: 43rem;
     width: 100%;
+    height: 45rem;
     margin-left: auto;
     margin-right: auto;
+    /* background-color: ; */
 }
 
 .contact-title{
@@ -241,17 +288,6 @@ header{
     margin-left: auto;
     margin-right: auto;
     font-family: Space Grotesk;
-}
-
-
-.email,
-.newsletter,
-.frequence,
-.news-check,
-.buttons,
-.message,
-.submit{
-
 }
 
 .email{
@@ -279,14 +315,18 @@ header{
     top: 8rem;
 }
 
+.submit{
+    position: relative;
+    top: 20rem;
+}
 
 .citation{
     position: relative;
-    top: 70rem;
-    width: 80%;
+    top: 55rem;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-family: ;
+    /* font-family: ; */
 }
 
 .container-quotes{
@@ -332,10 +372,42 @@ header{
     top: 4rem;
 }
 
+
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.empty{
+    position: relative;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    border-color: hsl(0 59% 41%) ;
+    background: transparent;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.full{
+    position: relative;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    border-color: transparent;
+    background: hsl(0 100% 50%);
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
 footer{
     position: relative;
-    top: 80rem;
-    margin-bottom: 10rem;
+    top: 70rem;
+    margin-bottom: 5rem;
 }
 
 .WB{
@@ -355,7 +427,6 @@ footer{
     top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 5rem;
     justify-content: space-between;
     
 }
