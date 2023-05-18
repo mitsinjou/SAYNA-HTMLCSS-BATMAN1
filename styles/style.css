@@ -1,32 +1,30 @@
-body{
+body {
     position: relative;
-    background-color: hsl(0 0% 0%);
-    color: hsl(0 0% 100%);
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
     width: 100%;
     height: 420rem;
     margin: 0 0;
     /* font-family: Space Grotesk; */
-
 }
 
-header{
-    background-image: url('../Assets/Illustrations/Bathome1.png');
+header {
+    background-image: url("../Assets/Illustrations/Bathome1.png");
     width: 100%;
     height: 54rem;
     position: absolute;
-    background-repeat: no-repeat;              
+    background-repeat: no-repeat;
 }
 
-nav{
+nav {
     position: relative;
     top: 4rem;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-                    
 }
 
-.container-nav-elements{
+.container-nav-elements {
     position: relative;
     width: 100%;
     margin-left: auto;
@@ -35,33 +33,31 @@ nav{
     justify-content: space-between;
 }
 
-.logo-home{
+.logo-home {
     position: relative;
-    
 }
 
-.text-home{
+.text-home {
     position: relative;
     color: hsl(0 0% 100%);
-    font-family: Rajdhani; 
+    font-family: Rajdhani;
     font-size: 2rem;
 }
 
-.text-home a{
+.text-home a {
     /* text-decoration: none; */
     color: hsl(0 0% 100%);
 }
 
-.container{
+.container {
     position: relative;
     top: 10rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-.intro{
+.intro {
     color: hsl(0 0% 100%);
     font-family: Space Grotesk;
     font-size: 1.1rem;
@@ -71,19 +67,18 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
-
 }
 
-.he-is-batman{
+.he-is-batman {
     position: relative;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    font-family: Rajdhani ;
+    font-family: Rajdhani;
     font-size: 1.2rem;
 }
 
-.container-button{
+.container-button {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -92,46 +87,44 @@ nav{
     margin-right: auto;
 }
 
-.hero{
+.hero {
     position: relative;
-    padding-top:  0.5rem;
-    
+    padding-top: 0.5rem;
 }
-.fleche-down{
+.fleche-down {
     position: relative;
     width: 5rem;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
     top: 27rem;
-    
 }
 
-main{
+main {
     position: relative;
     top: 25rem;
 }
 
-.bat-title1{
+.bat-title1 {
     position: relative;
     top: 10px;
     color: hsl(0 0% 100%);
-    font-family: Rajdhani;    
+    font-family: Rajdhani;
 }
 
-.perso-batman{
-    color:white;
+.perso-batman {
+    color: white;
     font-family: Space Grotesk;
 }
 
-.bat-cine{
-    position:relative;
+.bat-cine {
+    position: relative;
     top: 500px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-batman{
+.container-batman {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -139,14 +132,13 @@ main{
     margin-left: auto;
     margin-right: auto;
     font-family: Space Grotesk;
-
 }
 
-.actor{
+.actor {
     text-align: center;
 }
 
-.nemesis-section{
+.nemesis-section {
     position: relative;
     top: 550px;
     width: 80%;
@@ -154,20 +146,20 @@ main{
     margin-right: auto;
 }
 
-.bat-shuriken{
-    position:relative;
+.bat-shuriken {
+    position: relative;
     width: 10%;
     top: -6rem;
     left: 4rem;
 }
 
-.nemesis-article{
+.nemesis-article {
     position: relative;
     top: -5rem;
     font-family: Space Grotesk;
 }
 
-.container-nemesis{
+.container-nemesis {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -177,14 +169,13 @@ main{
     font-family: Space Grotesk;
 }
 
-.batman-side{
+.batman-side {
     position: relative;
     top: -20rem;
     left: 47.5rem;
-
 }
 
-.ally-section{
+.ally-section {
     position: relative;
     top: 550px;
     width: 80%;
@@ -192,13 +183,13 @@ main{
     margin-right: auto;
 }
 
-.ally-article{
+.ally-article {
     position: relative;
     top: -20rem;
     font-family: Space Grotesk;
 }
 
-.container-ally{
+.container-ally {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -208,7 +199,7 @@ main{
     font-family: Space Grotesk;
 }
 
-.justice-section{
+.justice-section {
     position: relative;
     top: 550px;
     width: 80%;
@@ -217,14 +208,13 @@ main{
     font-family: Space Grotesk;
 }
 
-.justice-pic{
+.justice-pic {
     position: relative;
     width: 100%;
-    top:37rem;
+    top: 37rem;
 }
 
-
-.multimedia{
+.multimedia {
     position: relative;
     top: 35rem;
     width: 80%;
@@ -233,37 +223,35 @@ main{
     font-family: Rajdhani;
 }
 
-.button-left, 
-.button-right{
+.button-left,
+.button-right {
     position: relative;
     top: 7rem;
 }
 
-.container-classement{
+.container-classement {
     position: relative;
     display: flex;
     justify-content: space-around;
 }
 
-
-.container-right{
+.container-right {
     position: relative;
     left: 2rem;
 }
 
-
-.container-all-center{
+.container-all-center {
     position: relative;
     display: flex;
     width: 60%;
 }
 
-.bande-annonce{
+.bande-annonce {
     position: relative;
     top: 5rem;
 }
 
-.contact{
+.contact {
     position: relative;
     top: 43rem;
     width: 100%;
@@ -273,15 +261,14 @@ main{
     /* background-color: ; */
 }
 
-.contact-title{
+.contact-title {
     position: relative;
     display: flex;
     justify-content: center;
     font-family: Rajdhani;
-    
 }
 
-.formulaire{
+.formulaire {
     position: relative;
     top: 0;
     width: 60%;
@@ -290,37 +277,37 @@ main{
     font-family: Space Grotesk;
 }
 
-.email{
+.email {
     position: relative;
     top: 2rem;
 }
 
-.newsletter{
+.newsletter {
     position: relative;
     top: 4rem;
 }
 
-.frequence{
+.frequence {
     position: relative;
     top: 4rem;
 }
 
-.news-check{
+.news-check {
     position: relative;
     top: 4rem;
 }
 
-.message{
+.message {
     position: relative;
     top: 8rem;
 }
 
-.submit{
+.submit {
     position: relative;
     top: 20rem;
 }
 
-.citation{
+.citation {
     position: relative;
     top: 55rem;
     width: 100%;
@@ -329,72 +316,65 @@ main{
     /* font-family: ; */
 }
 
-.container-quotes{
+.container-quotes {
     position: relative;
     width: 80%;
     display: flex;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-.quote-1{
+.quote-1 {
     position: relative;
     top: -4rem;
 }
 
-.container-all-center2{
+.container-all-center2 {
     position: relative;
-    
 }
 
-.container-joker-quote{
+.container-joker-quote {
     position: relative;
-    
 }
 
-.the-quote{
+.the-quote {
     position: relative;
     text-align: center;
     font-family: Rajdhani;
 }
 
-.source-quote{
+.source-quote {
     position: relative;
     text-align: center;
     font-family: Space Grotesk;
 }
 
-
-.quote-2{
+.quote-2 {
     position: relative;
     top: 4rem;
 }
 
-
-.slider{
+.slider {
     position: relative;
     display: flex;
     justify-content: space-around;
     width: 20rem;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-
-.empty{
+.empty {
     position: relative;
     border: 0.1rem solid;
     border-radius: 50%;
-    border-color: hsl(0 59% 41%) ;
+    border-color: hsl(0 59% 41%);
     background: transparent;
     width: 0.5rem;
     height: 0.5rem;
 }
 
-.full{
+.full {
     position: relative;
     border: 0.1rem solid;
     border-radius: 50%;
@@ -404,13 +384,13 @@ main{
     height: 0.5rem;
 }
 
-footer{
+footer {
     position: relative;
     top: 70rem;
     margin-bottom: 5rem;
 }
 
-.WB{
+.WB {
     position: relative;
     display: flex;
     width: 47rem;
@@ -419,7 +399,7 @@ footer{
     justify-content: space-around;
 }
 
-.logos{
+.logos {
     position: relative;
     display: flex;
     width: 20rem;
@@ -428,5 +408,4 @@ footer{
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
-    
 }
