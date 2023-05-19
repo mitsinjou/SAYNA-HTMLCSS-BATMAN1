@@ -99,6 +99,31 @@ nav {
     top: 27rem;
 }
 
+aside {
+    position: fixed;
+    width: 6.5rem;
+    height: 18rem;
+    z-index: 3;
+    top: 15rem;
+    left: 88.2%;
+}
+
+#scroll-fixed {
+    display: flex;
+    height: inherit;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#social {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+    height: 8rem;
+}
+
 main {
     position: relative;
     top: 25rem;
@@ -112,7 +137,7 @@ main {
 }
 
 .perso-batman {
-    color: white;
+    color: hsl(0 0% 100%);
     font-family: Space Grotesk;
 }
 
@@ -173,6 +198,7 @@ main {
     position: relative;
     top: -20rem;
     left: 47.5rem;
+    z-index: 2;
 }
 
 .ally-section {
@@ -212,11 +238,12 @@ main {
     position: relative;
     width: 100%;
     top: 37rem;
+    z-index: 2;
 }
 
 .multimedia {
     position: relative;
-    top: 35rem;
+    top: 38rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -248,7 +275,18 @@ main {
 
 .bande-annonce {
     position: relative;
+    display: flex;
+    /* border: solid;
+    border-color: aliceblue; */
+    justify-content: space-around;
+    width: 100%;
     top: 5rem;
+    z-index: 2;
+}
+
+#the-video {
+    position: relative;
+    width: 80%;
 }
 
 .contact {
@@ -368,7 +406,7 @@ main {
     position: relative;
     border: 0.1rem solid;
     border-radius: 50%;
-    border-color: hsl(0 59% 41%);
+    border-color: blue;
     background: transparent;
     width: 0.5rem;
     height: 0.5rem;
@@ -379,7 +417,7 @@ main {
     border: 0.1rem solid;
     border-radius: 50%;
     border-color: transparent;
-    background: hsl(0 100% 50%);
+    background: blue;
     width: 0.5rem;
     height: 0.5rem;
 }
@@ -408,4 +446,53 @@ footer {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+}
+
+#horizontal {
+    position: relative;
+    z-index: 1;
+    top: 12rem;
+    width: 84%;
+    height: 0.01rem;
+    background: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #vertical-1 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    left: -35rem;
+    height: 0.01rem;
+    background: grey;
+    transform: rotate(90deg);
+} */
+
+#vertical-1 {
+    border-left: thick grey solid;
+    border-left-width: 0.01rem;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* #vertical-2 {
+    position: relative;
+    z-index: 1;
+    right: -35rem;
+    width: 100%;
+    height: 0.01rem;
+    background: grey;
+    transform: rotate(90deg);
+} */
+
+#vertical-2 {
+    border-left: thick grey solid;
+    border-left-width: 0.01rem;
+    height: 100%;
+    right: 8%;
+    position: absolute;
+    z-index: 1;
 }
