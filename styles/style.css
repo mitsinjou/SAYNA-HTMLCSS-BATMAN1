@@ -412,6 +412,15 @@ main {
     top: 8rem;
 } */
 
+#news-check,
+#message,
+#email,
+#newsletter {
+    width: 80%;
+    background-color: transparent;
+    border: none;
+}
+
 .submit {
     position: relative;
     left: 50%;
