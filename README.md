@@ -14,7 +14,7 @@ Here are the trailer, the actors in the film, a form contact
 
 ## MY-TO-DO-LIST
 
-(last update: Saturday, May 11, 2023)
+(last update: Saturday, May 20, 2023)
 
 -   **The responsive**: I coded this website on a laptop (16.9"),
 -   **The form** is not really as expected in the figma file (css to improve)
