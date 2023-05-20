@@ -5,7 +5,7 @@ body {
     width: 100%;
     height: 420rem;
     margin: 0 0;
-    /* font-family: Space Grotesk; */
+    /* font-family: "Space Grotesk"; */
 }
 
 header {
@@ -40,13 +40,14 @@ nav {
 .text-home {
     position: relative;
     color: hsl(0 0% 100%);
-    font-family: Rajdhani;
+    font-family: "Rajdhani";
     font-size: 2rem;
 }
 
 .text-home a {
     /* text-decoration: none; */
     color: hsl(0 0% 100%);
+    font-weight: bold;
 }
 
 .container {
@@ -59,7 +60,7 @@ nav {
 
 .intro {
     color: hsl(0 0% 100%);
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
     font-size: 1.1rem;
     text-align: center;
     width: 30rem;
@@ -74,7 +75,7 @@ nav {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    font-family: Rajdhani;
+    font-family: "Rajdhani";
     font-size: 1.2rem;
 }
 
@@ -88,9 +89,42 @@ nav {
 }
 
 .hero {
-    position: relative;
-    padding-top: 0.5rem;
+    /* position: relative;
+    padding-top: 0.5rem; */
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4),
+        rgba(237, 222, 191, 0.4),
+        rgba(137, 0, 8, 0.6)
+    );
+    border: none;
+    color: white;
+    font-family: "Rajdhani";
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    opacity: 75%;
+    font-weight: bolder;
 }
+
+.adve {
+    color: white;
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4),
+        rgba(237, 222, 191, 0.4),
+        rgba(137, 0, 8, 0.6)
+    );
+    border: none;
+    font-family: "Rajdhani";
+    padding-left: 2rem;
+    padding-right: 2rem;
+    opacity: 75%;
+    font-weight: bolder;
+}
+
 .fleche-down {
     position: relative;
     width: 5rem;
@@ -133,12 +167,12 @@ main {
     position: relative;
     top: 10px;
     color: hsl(0 0% 100%);
-    font-family: Rajdhani;
+    font-family: "Rajdhani";
 }
 
 .perso-batman {
     color: hsl(0 0% 100%);
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .bat-cine {
@@ -156,7 +190,7 @@ main {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .actor {
@@ -181,7 +215,7 @@ main {
 .nemesis-article {
     position: relative;
     top: -5rem;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .container-nemesis {
@@ -191,7 +225,7 @@ main {
     margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .batman-side {
@@ -212,7 +246,7 @@ main {
 .ally-article {
     position: relative;
     top: -20rem;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .container-ally {
@@ -222,7 +256,7 @@ main {
     margin-top: -15rem;
     margin-left: auto;
     margin-right: auto;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .justice-section {
@@ -231,7 +265,7 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .justice-pic {
@@ -247,7 +281,7 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-family: Rajdhani;
+    font-family: "Rajdhani";
 }
 
 .button-left,
@@ -262,15 +296,34 @@ main {
     justify-content: space-around;
 }
 
+/* .container-left{
+
+} */
+
+/* .image-jacket {
+    
+} */
+
 .container-right {
     position: relative;
-    left: 2rem;
+    left: 1.2rem;
+    width: 28rem;
+    height: 2rem;
 }
 
 .container-all-center {
     position: relative;
     display: flex;
     width: 60%;
+    height: 16.66rem;
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4)
+    );
+    font-size: 0.9rem;
+    font-family: "Space Grotesk";
+    border-radius: 3%;
 }
 
 .bande-annonce {
@@ -291,31 +344,50 @@ main {
 
 .contact {
     position: relative;
-    top: 43rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 45rem;
     width: 100%;
-    height: 45rem;
+    height: 35rem;
     margin-left: auto;
     margin-right: auto;
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(25, 88, 125, 0.4)
+    );
     /* background-color: ; */
+}
+
+.container-all-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .contact-title {
     position: relative;
     display: flex;
     justify-content: center;
-    font-family: Rajdhani;
+    font-family: "Rajdhani";
 }
 
 .formulaire {
     position: relative;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: -3rem;
     width: 60%;
+    height: 25rem;
     margin-left: auto;
     margin-right: auto;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
-.email {
+/* .email {
     position: relative;
     top: 2rem;
 }
@@ -338,11 +410,25 @@ main {
 .message {
     position: relative;
     top: 8rem;
-}
+} */
 
 .submit {
     position: relative;
-    top: 20rem;
+    left: 50%;
+}
+
+#submit {
+    background: linear-gradient(
+        0.25turn,
+        rgba(237, 222, 191, 0.4),
+        rgba(137, 0, 8, 0.6)
+    );
+    color: white;
+    font-family: "Rajdhani";
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    left: 50%;
 }
 
 .citation {
@@ -379,13 +465,13 @@ main {
 .the-quote {
     position: relative;
     text-align: center;
-    font-family: Rajdhani;
+    font-family: "Rajdhani";
 }
 
 .source-quote {
     position: relative;
     text-align: center;
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
 }
 
 .quote-2 {
@@ -406,7 +492,7 @@ main {
     position: relative;
     border: 0.1rem solid;
     border-radius: 50%;
-    border-color: blue;
+    border-color: rgba(25, 88, 125, 0.4);
     background: transparent;
     width: 0.5rem;
     height: 0.5rem;
@@ -417,7 +503,7 @@ main {
     border: 0.1rem solid;
     border-radius: 50%;
     border-color: transparent;
-    background: blue;
+    background: rgba(25, 88, 125, 0.4);
     width: 0.5rem;
     height: 0.5rem;
 }
