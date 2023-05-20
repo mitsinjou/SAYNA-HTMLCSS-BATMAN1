@@ -140,6 +140,7 @@ aside {
     z-index: 3;
     top: 15rem;
     left: 88.2%;
+    z-index: 3;
 }
 
 #scroll-fixed {
@@ -149,6 +150,7 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    z-index: 3;
 }
 
 #social {
@@ -357,7 +359,6 @@ main {
         rgba(237, 222, 191, 0.4),
         rgba(25, 88, 125, 0.4)
     );
-    /* background-color: ; */
 }
 
 .container-all-form {
