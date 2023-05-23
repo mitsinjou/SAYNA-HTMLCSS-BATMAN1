@@ -17,7 +17,7 @@ Here are the trailer, the actors in the film, a form contact
 (last update: Saturday, May 20, 2023)
 
 -   Improve the CSS positionning: Like removing all the "display: relative" in a section or div that are not necessary.
--   **The responsive**: I coded this website on a laptop (16.9"),
+-   **The responsive**: I coded this website on a laptop ,
 -   **The form** is not really as expected in the figma file (css to improve)
 -   All css **" :hover " animations**
 -   All javascript interaction (client side)
