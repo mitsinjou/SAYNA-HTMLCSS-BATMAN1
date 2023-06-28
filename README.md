@@ -14,18 +14,11 @@ Here are the trailer, the actors in the film, a form contact
 
 ## MY-TO-DO-LIST
 
-(last update for the main branch: Tuesday, May 23, 2023)
+(last update for the main branch: Wednesday, June 28, 2023)
 
--   Improve the CSS positionning: Like removing all the "display: relative" in a section or div that are not necessary.
 -   **The responsive**: I coded this website on a laptop ,
 -   **The form** is not really as expected in the figma file (css to improve)
--   All css **" :hover " animations**
--   All javascript interaction (client side)
--   All backend
 
 ## MY-BRANCHES
 
 -   "Main" branch is where I upload the last "stable" version
--   "Updates" branch is where I test updates in my listed "MY-TO-DO-LIST"
-
-    ![LOVE](http://ForTheBadge.com/images/badges/built-with-love.svg)
